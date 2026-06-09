@@ -1,0 +1,135 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: #f4f6f9;
+  color: #1f2937;
+}
+
+.app-shell {
+  height: 100%;
+}
+
+.app-header {
+  height: 58px;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  border-bottom: 1px solid #d9dee8;
+  padding: 0 18px;
+}
+
+.app-header strong {
+  display: block;
+  font-size: 17px;
+}
+
+.brand-block {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 260px;
+}
+
+.app-logo {
+  width: 38px;
+  height: 38px;
+  border-radius: 8px;
+  flex: 0 0 auto;
+}
+
+.config-pane {
+  height: calc(100vh - 58px);
+  overflow: auto;
+  border-right: 1px solid #d9dee8;
+  padding: 12px 14px 28px;
+  resize: horizontal;
+  min-width: 360px;
+  max-width: 620px;
+}
+
+.workbench {
+  height: calc(100vh - 58px);
+  overflow: auto;
+  padding: 16px;
+}
+
+.panel {
+  background: #ffffff;
+  border: 1px solid #d9dee8;
+  border-radius: 6px;
+  padding: 14px;
+}
+
+.panel-title {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.panel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  gap: 16px;
+}
+
+.resizable-panel {
+  min-height: 260px;
+  min-width: 380px;
+  resize: both;
+  overflow: auto;
+}
+
+.panel + .panel,
+.history-panel {
+  margin-top: 16px;
+}
+
+.actions-row {
+  display: flex;
+  gap: 8px;
+  margin: 12px 0;
+}
+
+.log-box {
+  height: 240px;
+  overflow: auto;
+  background: #101828;
+  color: #d1e7ff;
+  font-family: Consolas, monospace;
+  font-size: 12px;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.ant-table-row {
+  cursor: pointer;
+}
+
+.help-icon {
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.form-separator {
+  height: 1px;
+  background: #e5e7eb;
+  margin: 14px 0;
+}
+
+.stacked-button {
+  margin-top: 10px;
+}
+
+.ant-input-group-addon {
+  padding: 0 2px;
+}

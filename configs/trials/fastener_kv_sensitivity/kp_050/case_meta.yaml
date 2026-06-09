@@ -1,0 +1,15 @@
+manifest_name: fastener_kv_sensitivity
+case_id: kp_050
+note: Kkjv=50kN/mm，重载典型值
+base_profile_dir: C:\VTCM_PYTHON\configs\standard
+generated_profile_dir: C:\VTCM_PYTHON\configs\trials\fastener_kv_sensitivity\kp_050
+common:
+  project_name: 扣件垂向刚度敏感性分析
+  vehicle_type: 高速客车
+  save_dof_mode: vehicle
+  irr_type: 外部导入
+  plot_figs: 'Off'
+  note_prefix: kkjv_scan
+  description: 扣件垂向刚度Kkjv参数扫描（20~60kN/mm），分析刚度对轮轨力、车体加速度、轨枕应力的影响
+updated_yaml_files:
+- fastener_kv.yaml

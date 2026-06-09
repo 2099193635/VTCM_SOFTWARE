@@ -1,0 +1,80 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">VTCM project icon</title>
+  <desc id="desc">A front-facing high-speed train aligned with perspective rails, with track-direction irregularity and vibration curves for the VTCM vehicle-track coupled dynamics project.</desc>
+  <defs>
+    <linearGradient id="bg" x1="82" y1="48" x2="430" y2="464" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B2A3A"/>
+      <stop offset="0.58" stop-color="#153D49"/>
+      <stop offset="1" stop-color="#1B2437"/>
+    </linearGradient>
+    <linearGradient id="trainBody" x1="166" y1="120" x2="342" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="0.48" stop-color="#EDF6FA"/>
+      <stop offset="1" stop-color="#B7C9D5"/>
+    </linearGradient>
+    <linearGradient id="trainNose" x1="202" y1="250" x2="312" y2="386" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#D5E5EE"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="198" y1="168" x2="314" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9EEAF0"/>
+      <stop offset="0.55" stop-color="#4DB7E5"/>
+      <stop offset="1" stop-color="#173248"/>
+    </linearGradient>
+    <linearGradient id="railSteel" x1="112" y1="414" x2="400" y2="414" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E9F5F9"/>
+      <stop offset="0.5" stop-color="#8EE6EE"/>
+      <stop offset="1" stop-color="#4DA3FF"/>
+    </linearGradient>
+    <filter id="softShadow" x="45" y="43" width="422" height="426" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#06131B" flood-opacity="0.36"/>
+    </filter>
+    <clipPath id="clip">
+      <rect x="48" y="48" width="416" height="416" rx="92"/>
+    </clipPath>
+  </defs>
+
+  <rect x="48" y="48" width="416" height="416" rx="92" fill="url(#bg)" filter="url(#softShadow)"/>
+  <g clip-path="url(#clip)">
+    <path d="M51 356C121 329 185 329 256 354C327 379 391 372 461 333" stroke="#254A5B" stroke-width="108" stroke-linecap="round"/>
+
+    <path d="M139 452L226 327" stroke="#3D5666" stroke-width="34" stroke-linecap="round"/>
+    <path d="M373 452L286 327" stroke="#3D5666" stroke-width="34" stroke-linecap="round"/>
+    <path d="M146 452L229 331" stroke="url(#railSteel)" stroke-width="13" stroke-linecap="round"/>
+    <path d="M366 452L283 331" stroke="url(#railSteel)" stroke-width="13" stroke-linecap="round"/>
+    <path d="M112 435H400M132 409H380M154 385H358M176 363H336M198 344H314" stroke="#9CC6D4" stroke-width="10" stroke-linecap="round"/>
+    <path d="M112 435H400M132 409H380M154 385H358M176 363H336M198 344H314" stroke="#213847" stroke-opacity="0.34" stroke-width="4" stroke-linecap="round"/>
+    <path d="M88 456H424" stroke="#DCEAF2" stroke-width="11" stroke-linecap="round"/>
+    <path d="M232 332C219 348 219 359 205 374C190 391 191 402 175 419C161 434 158 444 146 452" stroke="#1DD3C6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M280 332C293 348 293 359 307 374C322 391 321 402 337 419C351 434 354 444 366 452" stroke="#1DD3C6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M256 330C246 345 267 355 256 371C244 388 269 398 256 416C245 431 267 441 256 455" stroke="#FFB84A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M256 330C246 345 267 355 256 371C244 388 269 398 256 416C245 431 267 441 256 455" stroke="#FFF4D6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="232" cy="332" r="7" fill="#1DD3C6"/>
+    <circle cx="256" cy="455" r="7" fill="#FFB84A"/>
+
+    <path d="M256 121C210 121 177 144 163 190C150 234 151 291 166 328C183 371 219 393 256 395C293 393 329 371 346 328C361 291 362 234 349 190C335 144 302 121 256 121Z" fill="#071D2B" opacity="0.36"/>
+    <path d="M256 111C206 111 170 137 156 187C143 231 144 289 159 327C175 369 214 393 256 395C298 393 337 369 353 327C368 289 369 231 356 187C342 137 306 111 256 111Z" fill="url(#trainBody)"/>
+    <path d="M256 111C206 111 170 137 156 187C143 231 144 289 159 327C175 369 214 393 256 395C298 393 337 369 353 327C368 289 369 231 356 187C342 137 306 111 256 111Z" stroke="#F7FCFF" stroke-opacity="0.9" stroke-width="6"/>
+    <path d="M184 186C194 158 221 145 256 145C291 145 318 158 328 186C334 204 321 229 304 244C292 255 276 260 256 260C236 260 220 255 208 244C191 229 178 204 184 186Z" fill="#132C43"/>
+    <path d="M195 189C203 169 226 159 256 159C286 159 309 169 317 189C321 202 311 219 297 231C286 240 272 244 256 244C240 244 226 240 215 231C201 219 191 202 195 189Z" fill="url(#glass)"/>
+    <path d="M256 124V148M256 260V391" stroke="#B7C9D5" stroke-width="4" stroke-linecap="round" opacity="0.55"/>
+    <path d="M160 207C174 232 183 266 183 307" stroke="#D6E6EE" stroke-width="8" stroke-linecap="round"/>
+    <path d="M352 207C338 232 329 266 329 307" stroke="#D6E6EE" stroke-width="8" stroke-linecap="round"/>
+    <path d="M164 244L203 278L185 310L156 289C155 274 157 259 164 244Z" fill="#E7F1F6"/>
+    <path d="M348 244L309 278L327 310L356 289C357 274 355 259 348 244Z" fill="#E7F1F6"/>
+    <path d="M166 255L200 286" stroke="#879EAD" stroke-width="5" stroke-linecap="round"/>
+    <path d="M346 255L312 286" stroke="#879EAD" stroke-width="5" stroke-linecap="round"/>
+    <path d="M169 314C194 335 223 346 256 346C289 346 318 335 343 314C338 349 303 382 256 386C209 382 174 349 169 314Z" fill="url(#trainNose)"/>
+    <path d="M190 331C209 346 231 354 256 354C281 354 303 346 322 331" stroke="#C5D8E3" stroke-width="7" stroke-linecap="round"/>
+    <path d="M189 292C209 306 231 313 256 313C281 313 303 306 323 292" stroke="#F0603B" stroke-width="9" stroke-linecap="round"/>
+    <path d="M184 304C203 320 229 329 256 329C283 329 309 320 328 304" stroke="#FFB84A" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="223" cy="293" r="7" fill="#213847"/>
+    <circle cx="289" cy="293" r="7" fill="#213847"/>
+    <circle cx="223" cy="293" r="3" fill="#8EE6EE"/>
+    <circle cx="289" cy="293" r="3" fill="#8EE6EE"/>
+    <path d="M175 307L154 323" stroke="#102D43" stroke-width="7" stroke-linecap="round"/>
+    <path d="M337 307L358 323" stroke="#102D43" stroke-width="7" stroke-linecap="round"/>
+    <path d="M201 371C216 384 234 391 256 392C278 391 296 384 311 371" stroke="#4A6472" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <rect x="56" y="56" width="400" height="400" rx="84" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="16"/>
+</svg>

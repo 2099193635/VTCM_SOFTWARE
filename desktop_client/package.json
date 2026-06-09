@@ -1,0 +1,55 @@
+{
+  "name": "vtcm-desktop",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist-electron/main.js",
+  "scripts": {
+    "dev": "npm run build:electron && concurrently -k \"node scripts/start-backend-dev.js\" \"vite --host 127.0.0.1\" \"tsc -p electron/tsconfig.json --watch\" \"wait-on http://127.0.0.1:5173 http://127.0.0.1:18765/api/health && electron .\"",
+    "build:electron": "tsc -p electron/tsconfig.json",
+    "build": "tsc && vite build && tsc -p electron/tsconfig.json",
+    "dist": "npm run build && electron-builder"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.3.7",
+    "@vitejs/plugin-react": "^4.2.1",
+    "antd": "^5.16.1",
+    "echarts": "^5.5.0",
+    "echarts-for-react": "^3.0.2",
+    "electron-is-dev": "^3.0.1",
+    "vite": "^5.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "@types/react": "^18.2.73",
+    "@types/react-dom": "^18.2.23",
+    "concurrently": "^8.2.2",
+    "electron": "^29.1.6",
+    "electron-builder": "^24.13.3",
+    "typescript": "^5.4.3",
+    "wait-on": "^7.2.0"
+  },
+  "build": {
+    "appId": "cn.vtcm.desktop",
+    "productName": "VTCM Workbench",
+    "files": [
+      "dist/**",
+      "dist-electron/**",
+      "build/icon.ico",
+      "build/icon.png"
+    ],
+    "icon": "build/icon.ico",
+    "extraResources": [
+      {
+        "from": "../dist-backend",
+        "to": "backend",
+        "filter": ["**/*"]
+      }
+    ],
+    "win": {
+      "icon": "build/icon.ico",
+      "target": "nsis"
+    }
+  }
+}

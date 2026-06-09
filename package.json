@@ -1,0 +1,11 @@
+{
+  "name": "vtcm-python-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix desktop_client run dev",
+    "install-client": "npm --prefix desktop_client install",
+    "build-client": "npm --prefix desktop_client run build",
+    "dist-client": "npm --prefix desktop_client run dist"
+  }
+}
+
